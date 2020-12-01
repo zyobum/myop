@@ -1,6 +1,6 @@
 --- /data/openpilot/selfdrive/monitoring/driver_monitor.py
 +++ ./driver_monitor.py.patched
-@@ -14,10 +14,10 @@
+@@ -16,8 +16,8 @@
  
 -_AWARENESS_TIME = 35.  # passive wheel touch total timeout
 +_AWARENESS_TIME = 35000.  # passive wheel touch total timeout
