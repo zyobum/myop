@@ -1,12 +1,9 @@
---- ../o/carcontroller.py
-+++ carcontroller.py
-@@ -90,7 +90,7 @@
- 
+--- /data/openpilot/selfdrive/car/toyota/carcontroller.py
++++ ./carcontroller.py.patched
+@@ -91,4 +91,4 @@
      # on entering standstill, send standstill request
 -    if CS.out.standstill and not self.last_standstill:
 -      self.standstill_req = True
 +    #if CS.out.standstill and not self.last_standstill:
 +    #  self.standstill_req = True
      if CS.pcm_acc_status != 8:
-       # pcm entered standstill or it's disabled
-       self.standstill_req = False
