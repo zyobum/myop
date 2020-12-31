@@ -1,6 +1,7 @@
-87,88c87,88
-<     if CS.out.standstill and not self.last_standstill and CS.CP.carFingerprint not in NO_STOP_TIMER_CAR:
-<       self.standstill_req = True
----
->     #if CS.out.standstill and not self.last_standstill and CS.CP.carFingerprint not in NO_STOP_TIMER_CAR:
->     #  self.standstill_req = True
+--- carcontroller.py
++++ carcontroller.py.patched
+@@ -87,2 +87,2 @@
+-    if CS.out.standstill and not self.last_standstill and CS.CP.carFingerprint not in NO_STOP_TIMER_CAR:
+-      self.standstill_req = True
++    #if CS.out.standstill and not self.last_standstill and CS.CP.carFingerprint not in NO_STOP_TIMER_CAR:
++    #  self.standstill_req = True
