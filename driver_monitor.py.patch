@@ -1,4 +1,4 @@
---- /Users/jay.zhuang/ws.op/openpilot/selfdrive/monitoring/driver_monitor.py	2022-02-18 12:21:55.000000000 +0800
+--- /data/openpilot/selfdrive/monitoring/driver_monitor.py	2022-02-18 12:21:55.000000000 +0800
 +++ tmp/driver_monitor.py.patched	2022-02-18 12:22:54.000000000 +0800
 @@ -20,6 +20,6 @@
      self._DT_DMON = DT_DMON
