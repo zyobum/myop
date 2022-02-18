@@ -1,2 +1,2 @@
-OPPATH=/data/openpilot
+OPPATH=/Users/jay.zhuang/ws.op/openpilot
 
