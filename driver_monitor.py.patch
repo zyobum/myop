@@ -1,5 +1,5 @@
---- /data/openpilot/selfdrive/monitoring/driver_monitor.py	2022-02-18 12:21:55.000000000 +0800
-+++ tmp/driver_monitor.py.patched	2022-02-18 12:22:54.000000000 +0800
+--- /data/openpilot/selfdrive/monitoring/driver_monitor.py	2022-02-18 14:55:59.000000000 +0800
++++ tmp/driver_monitor.py.patched	2022-02-18 14:54:08.000000000 +0800
 @@ -20,6 +20,6 @@
      self._DT_DMON = DT_DMON
 -    self._AWARENESS_TIME = 35. # passive wheeltouch total timeout

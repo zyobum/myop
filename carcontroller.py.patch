@@ -1,10 +1,9 @@
---- /data/openpilot/selfdrive/car/toyota/carcontroller.py
-+++ tmp/carcontroller.py.patched
-@@ -86,4 +86,4 @@
+--- /data/openpilot/selfdrive/car/toyota/carcontroller.py	2022-02-18 14:55:59.000000000 +0800
++++ tmp/carcontroller.py.patched	2022-02-18 14:54:08.000000000 +0800
+@@ -63,4 +63,4 @@
      # on entering standstill, send standstill request
 -    if CS.out.standstill and not self.last_standstill and CS.CP.carFingerprint not in NO_STOP_TIMER_CAR:
 -      self.standstill_req = True
 +    #if CS.out.standstill and not self.last_standstill and CS.CP.carFingerprint not in NO_STOP_TIMER_CAR:
 +    #  self.standstill_req = True
      if CS.pcm_acc_status != 8:
-
