@@ -1,0 +1,2 @@
+OPPATH=/data/openpilot
+
